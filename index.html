@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <input type="text" v-model="school.name">
+        <div>{{school.name}}</div>
+        <div>{{school.age}}</div>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <script src="./mvvm.js"></script>
+    <script>
+        let vm = new Vue({
+            el: '#app',
+            data: {
+                school: {
+                    name: '李四',
+                    age: 18
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
