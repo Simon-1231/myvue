@@ -1,0 +1,26 @@
+{
+  "name": "myvue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mvvm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simon-1231/myvue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Simon-1231/myvue/issues"
+  },
+  "homepage": "https://github.com/Simon-1231/myvue#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1"
+  }
+}
